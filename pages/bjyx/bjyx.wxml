@@ -1,0 +1,4 @@
+<!--pages/bjyx/bjyx.wxml-->
+<text>pages/bjyx/bjyx.wxml</text>
+
+<image class="pic1" src="/images/pic2.jpg" mode="aspectFill"></image>
