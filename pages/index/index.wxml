@@ -10,7 +10,7 @@ hover-class="boxHover"
 <scroll-view scroll-x>
   <view class="scrOut">
     <view class="scrBox">xz</view>
-    <view class="scrBox">xz</view>
+    <view class="scrBox">wyb</view>
     <view class="scrBox">xz</view>
     <view class="scrBox">xz</view>
     <view class="scrBox">xz</view>
@@ -25,10 +25,26 @@ hover-class="boxHover"
   <button class="btn1" type="primary" disabled >退出登录</button>
   <button class="btn1" type="primary" loading>加载中...</button>
   <button type="primary" open-type="contact">联系客服</button>
+  
+  
+  <view style="padding:50px;">
+    <progress percent="60" show-info></progress>
+  </view>
+
+  <view style="padding:50px; text-align:center" >
+    <icon type="success" size="100"></icon>  
+    <view >提交成功，感谢您的配合！</view>
+  </view>
+ 
+
   <form bindsubmit="onSubmit">
-    <input class="ipt" placeholder="请输入信息" placeholder-class="iptPlace"></input>
+    <input class="ipt" placeholder="请输入信息" placeholder-class="iptPlace" type="number"></input>
     <button form-type="submit">提交</button>
+    <switch checked></switch>
   </form>
+
+ 
+
 </view>
 
 
