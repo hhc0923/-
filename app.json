@@ -11,6 +11,33 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
+  
+  "tabBar": {
+    "color": "#d30",
+    "selectedColor": "#04f",
+    "backgroundColor": "#ccc",
+    "borderStyle": "white",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home1.png"
+      },
+    {
+      "pagePath": "pages/bjyx/bjyx",
+      "text": "案例",
+      "iconPath": "images/data.png",
+      "selectedIconPath": "images/data1.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "images/diary.png",
+      "selectedIconPath": "images/diary1.png"
+    }
+    ]
+  },  
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

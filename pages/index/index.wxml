@@ -31,10 +31,7 @@ hover-class="boxHover"
     <progress percent="60" show-info></progress>
   </view>
 
-  <view style="padding:50px; text-align:center" >
-    <icon type="success" size="100"></icon>  
-    <view >提交成功，感谢您的配合！</view>
-  </view>
+
  
 
   <form bindsubmit="onSubmit">
@@ -43,10 +40,11 @@ hover-class="boxHover"
     <switch checked></switch>
   </form>
 
- 
-
 </view>
-
+<view style="padding:50px; text-align:center" >
+    <icon type="success" size="100"></icon>  
+    <view >提交成功，感谢您的配合！</view>
+</view>
 
 <swiper class="swpBox" indicator-dots autoplay circular>
   <swiper-item>

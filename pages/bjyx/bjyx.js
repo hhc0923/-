@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    title:"微信小程序开发",
+    listArr:["Java","python","Php","C++","Html"],
+    obj:{name:"崔会会",age:"18",sex:"女"},
+    day:3
   },
 
   /**

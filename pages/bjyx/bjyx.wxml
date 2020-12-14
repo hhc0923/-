@@ -2,3 +2,23 @@
 <text>pages/bjyx/bjyx.wxml</text>
 
 <image class="pic1" src="/images/pic2.jpg" mode="aspectFill"></image>
+
+<view>{{title}}</view>
+
+<view>{{listArr}}</view>
+
+<view >{{obj.name}} - {{obj.sex}}</view>
+
+
+<!-- 条件渲染 -->
+<view wx:if="{{true}}">{{listArr[0]}}</view>
+<view wx:else>{{listtArr}}</view>
+
+<view wx:if="{{day==1}}">周一</view>
+<view wx:elif="{{day==2}}">周二</view>
+<view wx:elif="{{day==3}}">周三</view>
+<view wx:elif="{{day==4}}">周四</view>
+<view wx:elif="{{day==5}}">周五</view>
+<view wx:elif="{{day==6}}">周六</view>
+<view wx:elif="{{day==7}}">周日</view>
+<view wx:else>错误</view>
