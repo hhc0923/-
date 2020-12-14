@@ -3,6 +3,7 @@
 
 <image class="pic1" src="/images/pic2.jpg" mode="aspectFill"></image>
 
+
 <view>{{title}}</view>
 
 <view>{{listArr}}</view>
@@ -22,3 +23,15 @@
 <view wx:elif="{{day==6}}">周六</view>
 <view wx:elif="{{day==7}}">周日</view>
 <view wx:else>错误</view>
+
+<block wx:if="{{true}}">
+  <navigator url="pages/index/index">跳转1</navigator>
+  <view>这是标题</view>
+
+  <view>这是内容</view>
+</block>
+<block wx:else>
+  <navigator url="pages/logs/logs">跳转2</navigator>
+</block>
+  <!-- 加一个空行 -->
+  <text decode>&nbsp;</text>

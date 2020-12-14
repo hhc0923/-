@@ -35,7 +35,12 @@
       "text": "日志",
       "iconPath": "images/diary.png",
       "selectedIconPath": "images/diary1.png"
+    },
+    {
+      "pagePath": "pages/zsww/zsww",
+      "text": "战山为王"
     }
+    
     ]
   },  
   "style": "v2",

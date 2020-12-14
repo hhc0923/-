@@ -1,2 +1,24 @@
-<!--pages/zsww/zsww.wxml-->
+  <!--pages/zsww/zsww.wxml-->
 <text>pages/zsww/zsww.wxml</text>
+
+<!-- 
+  index：索引值
+  item：数组中的每一个元素  
+ -->
+ <!-- 
+   *this：保留字，代表本身自己item，item不能表示对象，一定要有区别
+   可以用index
+   定义了index的就直接用定义的符号
+  -->
+<view wx:for="{{10}}" wx:key="*this">{{index}}战山为王</view>i
+<view wx:for="{{listArr}}" wx:key="*this">{{index}}、{{item}}</view>
+<text decode>&nbsp;</text>
+
+<view wx:for="{{listArr}}" wx:for-index="i" wx:for-item="content" wx:key="i">
+  {{i}}.{{content}}
+</view>
+
+<view wx:for="{{list}}" wx:key="index">
+  <text>{{item.title}}</text> - <text>{{item.time}}</text>
+
+</view>
